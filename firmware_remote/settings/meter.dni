@@ -1,0 +1,75 @@
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[DebugChecksum]
+Checksum=-1140661705
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[BreakpointUsageDialog]
+Placement=_ 622 369 1059 647
+[array_types]
+Fmt0=unsigned char[3]	4	0
+Fmt1=unsigned char[4]	4	0
+[watch_formats]
+Fmt0={W}42:PB_IDR	1	0
+Fmt1={W}42:avdd	3	0
+Fmt2={W}42:f	4	0
+Fmt3={W}42:gain	3	0
+Fmt4={W}42:intflag	3	0
+Fmt5={W}42:spidir	3	0
+Fmt6={W}42:spimlen	3	0
+Fmt7={W}42:t	3	6
+Fmt8={W}42:vtc	3	6
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Count=0
+[Aliases]
+Count=0
+SuppressDialog=0
